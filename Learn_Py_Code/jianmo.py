@@ -1,0 +1,1 @@
+commission = {"btc":0.02,"gold":0.01}
