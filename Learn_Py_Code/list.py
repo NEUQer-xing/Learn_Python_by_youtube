@@ -32,4 +32,30 @@ print(score)
 name.append("NEUQer_xing")
 print(name)
 
+## insert(index,val)
+score.insert(2,30)
+print(score)
 
+## 4.remove(val)
+score.remove(90)
+print(score)
+
+## 5.clear()
+# score.clear()
+# print(score)
+
+## 6.pop()移除列表的最后一位
+score.pop()
+
+## 7.sort()由小到大
+
+## 8.reverse() 反转
+
+score.reverse()
+print(score)
+
+## 9 index(val)想要找的值,回传index
+print(score.index(99))
+
+## 10. count(val)计数: 统计在list中有几个val
+print(score.count(99))
